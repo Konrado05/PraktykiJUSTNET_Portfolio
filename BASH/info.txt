@@ -1,0 +1,1 @@
+Niestety plik ze skryptem BASH usunąłem razem z całą maszyną wirtualną, jednakże był to kalkulator analogiczny do tego w BATCHu.

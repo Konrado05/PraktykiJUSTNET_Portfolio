@@ -1,0 +1,1 @@
+Jest to niedokończona strona drużyny harcerskiej. Aby działała, musi być umieszczona w folderze htdocks pakietu XAMPP.

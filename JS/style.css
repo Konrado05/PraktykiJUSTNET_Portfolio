@@ -1,0 +1,171 @@
+body
+{
+    background-image: url(img/dark-pattern.png); /* This pattern is downloaded from www.subtlepatterns.com */
+}
+
+header
+{
+    text-align: center;
+}
+
+header > *
+{
+    display: inline-block;
+}
+
+header > h1
+{
+    color: #A0A0A0;
+    font-family: 'Ubuntu';
+    font-size: 50px;
+    position: relative;
+    bottom: 15px;
+}
+
+header > img
+{
+    height: 80px;
+}
+
+main
+{
+    background-color: #303030;
+    border-radius: 2%;
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+section
+{
+    padding: 2.5%;
+    text-align: center;
+}
+
+#music
+{
+    display: grid;
+    grid-template-columns: repeat(5, 18%);
+    column-gap: 2.5%;
+    row-gap: 20px;
+}
+
+.switcher
+{
+    background-color: #700070;
+    height: 50px;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.5em;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    transition: 125ms ease-in-out;
+}
+
+.switcher:hover
+{
+    box-shadow:
+    3px 2px 6px burlywood,
+    -3px 2px 6px burlywood,
+    -3px -2px 6px burlywood,
+    3px -2px 6px burlywood;
+}
+
+.switcher:active
+{
+    background-color: #480048 !important;
+}
+
+.played
+{
+    background-color: #580058 !important;
+    box-shadow:
+    3px 2px 6px #2edbb7,
+    -3px 2px 6px #2edbb7,
+    -3px -2px 6px #2edbb7,
+    3px -2px 6px #2edbb7 !important;
+}
+
+#animals
+{
+    display: grid;
+    grid-template-columns: repeat(5, 18%);
+    column-gap: 2.5%;
+    row-gap: 20px;
+}
+
+.button
+{
+    background-color: #10a29a;
+    height: 70px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 400;
+    transition: 125ms ease-in-out;
+}
+
+.button:hover
+{
+    box-shadow:
+    3px 2px 6px burlywood,
+    -3px 2px 6px burlywood,
+    -3px -2px 6px burlywood,
+    3px -2px 6px burlywood;
+}
+
+.button:active
+{
+    background-color: #00827a;
+}
+
+.button > img
+{
+    height: 95%;
+    max-width: 95%;
+}
+
+.button > img:active
+{
+    opacity: 97%;
+}
+
+#reset
+{
+    background-color: #bc041c;
+    margin: 0;
+    height: 50px;
+    position: relative;
+    left: 10%;
+    width: 80%;
+    border-radius: 20px;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 2.5em;
+    cursor: pointer;
+    transition: 125ms ease-in-out;
+}
+
+#reset:hover
+{
+    box-shadow:
+    3px 2px 6px burlywood,
+    -3px 2px 6px burlywood,
+    -3px -2px 6px burlywood,
+    3px -2px 6px burlywood;
+}
+
+#reset:active
+{
+    background-color: #a0000c;
+}

@@ -1,0 +1,320 @@
+html
+{
+    min-height: 100%;
+}
+
+.clearBoth
+{
+    clear: both;
+}
+
+body
+{
+    background-image: url(img/background.png); /* Background pattern from Toptal Subtle Patterns */
+    margin: 0px;
+    height: 100%;
+}
+
+header
+{
+    width: 100%;
+    padding: 20px 0;
+    margin: 0px 0px 40px 0px;
+    background-color: #101010;
+    box-shadow:
+    2px 2px 4px #101010,
+    -2px 2px 4px #101010,
+    -2px -2px 4px #101010,
+    2px -2px 4px #101010;
+}
+
+#header-logo
+{   
+    width: 600px;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+    color: whitesmoke;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#header-logo > img
+{
+    width: 125px;
+    float: left;
+    position: relative;
+    left: 10px;
+}
+
+#header-logo > h1
+{
+    margin: 0;
+    padding-left: 10px;
+    font-size: 65px;
+    float: left;
+    position: relative;
+    top: 0.4em;
+    left: 20px;
+    text-shadow:
+    4px 4px 3px #233f86,
+    -4px 4px 3px #233f86,
+    -4px -4px 3px #233f86,
+    4px -4px 3px #233f86;
+}
+
+nav
+{
+    background-color: #5384dc;
+    border-top: 3px solid #3566be;
+    border-bottom: 3px solid #3566be;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    text-align: center;
+}
+
+nav > ol
+{
+    padding: 0;
+    margin: 4px 0px 0px 0px;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 600;
+    height: 45px;
+    line-height: 200%;
+    display: inline-block;
+}
+
+nav > ol > li
+{
+    float: left;
+    width: 150px;
+    height: 40px;
+    padding: 0px 2px;
+    border-right: 1px dashed #3566be;
+}
+
+nav > ol > li:last-child
+{
+    border-right: 0;
+}
+
+nav > ol > li > a
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+    border: 1px solid transparent;
+    transition: all 150ms ease-in-out;
+}
+
+nav > ol > li > a:hover
+{
+    background-color: #233f86;
+    border: 1px solid rgb(50, 78, 149);
+}
+
+#main
+{
+    width: 1000px;
+    max-width: 100%;
+    margin: 30px auto 10px auto;
+    background-color: antiquewhite;
+    padding-top: 5px;
+    box-shadow:
+    3px 2px 6px burlywood,
+    -3px 2px 6px burlywood,
+    -3px -2px 6px burlywood,
+    3px -2px 6px burlywood;
+}
+
+
+h2
+{
+    font-size: 60px;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    text-align: center;
+    margin: 15px 0px 35px 0px;
+    padding: 10px 0px;
+    letter-spacing: 3px;
+    text-shadow:
+    4px 4px 4px white,
+    -4px 4px 4px white,
+    -4px -4px 4px white,
+    4px -4px 4px white;
+}
+
+section
+{
+    margin: 16px 40px 16px 40px;
+    font-family: 'Caveat Brush';
+    font-weight: 500;
+}
+
+
+
+
+
+#historia
+{
+    font-size: 26px;
+}
+
+#historia > div
+{
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#historia > div > p
+{
+    max-width: 70%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+}
+
+#historia > div > img
+{
+    width: 25%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 20px 0px 0px;
+}
+
+
+
+.kadraSpis
+{
+    margin-bottom: 40px;
+    width: 35%;
+    position: relative;
+}
+
+.kadraSpis > h3
+{
+    font-size: 34px;
+    margin: 0px 0px 0px 0px;
+}
+
+.kadraSpis > p
+{
+    font-size: 30px;
+    margin: 0px 0px 0px 20px;
+}
+
+.kadraSpis > .kontakt
+{
+    font-size: 1.4em;
+    color: gray;
+}
+
+.kadraSpis > img
+{
+    width: 130px;
+    position: absolute;
+    top: 0px;
+    right: -100px;
+}
+
+.druzynowy
+{
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    color: #233f86;
+}
+
+.przyboczny
+{
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    color: #309c4d;
+}
+.zastepowy
+{
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    color: #59220a;
+}
+
+
+
+#downloadingList
+{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#downloadingList > li
+{
+    font-size: 34px;
+}
+
+#downloadingList > li > ul
+{
+    list-style-type: circle;
+}
+
+#downloadingList > li > ul > li
+{
+    font-size: 28px;
+}
+
+#downloadingList > li > ul > li > a
+{
+    text-decoration: none;
+    color: #233f86;
+}
+
+#downloadingList > li > ul > li > a:hover
+{
+    text-decoration: underline;
+    color: #324e95;
+}
+
+
+
+footer
+{
+    width: 100%;
+    height: 100px;
+    background-color: #101010;
+    margin-top: 100px;
+    position: -ms-page;
+    bottom: 0px;
+    box-shadow:
+    2px 2px 4px #101010,
+    -2px 2px 4px #101010,
+    -2px -2px 4px #101010,
+    2px -2px 4px #101010;
+}
+
+
+
+
+/*
+#hufiec:hover
+{
+    background-color: #4C7703;
+}
+
+#szczep:hover
+{
+    background-color: rgb(126, 9, 32);
+}
+
+#druzyna:hover
+{
+    background-color: rgb(23, 43, 131);
+}
+
+#zhp:hover
+{
+    background-color: #4a7b26;
+}
+*/
